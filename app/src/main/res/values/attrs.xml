@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberWidget">
+        <attr name="defaultNumber" format="integer"/>
+        <attr name="expandInStart" format="boolean"/>
+        <attr name="collapseMode" format="enum">
+            <enum name="always" value="0"/>
+            <enum name="auto" value="1"/>
+            <enum name="never" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
